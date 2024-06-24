@@ -153,3 +153,12 @@ input::placeholder {
     transform: translate(-50% -50%) scale(1);
     visibility: visible;
 }
+
+@media (max-width: 600px) {
+
+    .input-box input[type="text"],
+    .input-box input[type="email"],
+    .input-box input[type="password"] {
+        width: 100%;
+    }
+}
