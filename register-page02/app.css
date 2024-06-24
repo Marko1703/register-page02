@@ -87,10 +87,21 @@ input::placeholder {
     justify-content: space-between;
 }
 
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+}
+
+.group span {
+    margin-right: 5px;
+    color: black;
+}
+
 .group span a {
     color: #ffffff;
     position: relative;
-    top: 10px;
     text-decoration: none;
     font-weight: 500px;
 }
