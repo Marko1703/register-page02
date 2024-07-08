@@ -12,9 +12,9 @@ function validation() {
         document.getElementById("result").innerHTML="Password does not match*";
         return false;
     } else if (document.Formfill.password.value == document.Formfill.cPassword.value) {
-        registered.classList.add('open-slide')
+        registered.classList.add("open-slide")
         return false;
     } 
 }
 
-const registered = document.getElementById("#registered");
+var registered = document.getElementById("registered");
